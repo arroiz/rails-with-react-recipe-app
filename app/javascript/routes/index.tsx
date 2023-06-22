@@ -1,6 +1,6 @@
-import React from "react";
-import { BrowserRouter, Routes as ReactRouterRoutes, Route } from "react-router-dom";
-import { Home } from "../components";
+import React from 'react';
+import { BrowserRouter, Routes as ReactRouterRoutes, Route } from 'react-router-dom';
+import { Home } from '../components';
 
 export function Routes() {
   return (
@@ -10,4 +10,4 @@ export function Routes() {
       </ReactRouterRoutes>
     </BrowserRouter>
   );
-}  
+}
